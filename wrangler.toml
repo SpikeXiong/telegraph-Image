@@ -4,6 +4,7 @@ compatibility_date = "2026-04-20"
 [[r2_buckets]]
 binding = "IMGRS"
 bucket_name = "image2"
+jurisdiction = ""
 
 [[d1_databases]]
 binding = "IMG"
