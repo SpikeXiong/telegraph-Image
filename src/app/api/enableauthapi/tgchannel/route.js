@@ -34,7 +34,7 @@ export async function POST(request) {
 	const req_url = new URL(request.url);
 
 	const fileTypeMap = {
-		'image/': { url: 'sendPhoto', type: 'photo' },
+		'image/' : { url: 'sendDocument', type: 'document' },
 		'video/': { url: 'sendVideo', type: 'video' },
 		'audio/': { url: 'sendAudio', type: 'audio' },
 		'application/pdf': { url: 'sendDocument', type: 'document' }
